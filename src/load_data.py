@@ -1,6 +1,6 @@
 import yaml
 import argparse
-from src.get_data import read_config,get_data
+from get_data import read_config,get_data
 
 def load_and_save(config_path:str):
     config = read_config(config_path)

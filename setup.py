@@ -14,10 +14,10 @@ def get_requirements(file_path:str):
     return packages
 
 
-setup (
-    name = "wine_quality"
-    version = "0.0.1"
-    author = "abhinav"
-    packages = find_packages()
+setup(
+    name = "wine_quality",
+    version = "0.0.1",
+    author = "abhinav",
+    packages = find_packages(),
     install_requires = get_requirements(file_path = requirements_dir)
 )
