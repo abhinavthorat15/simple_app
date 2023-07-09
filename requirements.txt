@@ -1,0 +1,4 @@
+-e .
+dvc
+dvc[gdrive]
+sklearn
